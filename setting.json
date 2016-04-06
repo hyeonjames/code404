@@ -1,0 +1,12 @@
+{
+    "source" : {
+        "babel" : ["src/js/**/*.js"],
+        "lib" : ["src/lib/**/*.js","!**/*.min.js"],
+        "css" : ["src/css/**/*.css","!**/*.min.css"]
+    },
+    "build" : {
+        "babel" : "public/build/babel.js",
+        "lib" : "public/build/lib.js",
+        "css" : "public/build/com.css"
+    }
+}

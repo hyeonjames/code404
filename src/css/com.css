@@ -1,0 +1,74 @@
+/*
+a.css
+
+*/
+
+a:hover,a:focus {
+    text-decoration: none;
+    color:black;
+}
+a {
+    color:black;
+}
+
+.logo {
+    background-color:white;
+    font-size:48px;
+    cursor:pointer;
+    padding:5px;
+}
+.logo:hover {
+    animation-name:myhover;
+    animation-duration:0.5s;
+    border-radius:10px;
+    background-color:lightgray;
+    
+}
+
+@keyframes myhover {
+    from {
+        border-radius:0px;
+        background-color:white;
+    }
+    to {
+        border-radius:10px;
+        background-color:lightgray;
+    }
+}
+
+
+ul {
+    list-style:none;
+    
+}
+
+ul.menu {
+    margin-top:20px;
+}
+ul.menu li {
+    margin-left:15px;
+    float:left;
+}
+ul.menu li a {
+    font-size:24px;
+    padding:5px;
+}
+ul.menu li a:hover {
+    animation-name:myhover;
+    animation-duration:0.5s;
+    border-radius:10px;
+    background-color:lightgray;
+    
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+
+.line {
+    border : 1px solid lightgray;
+    width:100%;
+    height:0px;
+}
